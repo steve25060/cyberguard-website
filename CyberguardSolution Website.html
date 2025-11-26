@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CyberGuard Solutions — Advanced Cybersecurity & Smart AI Assistance</title>
+  <meta name="description"
+    content="CyberGuard Solutions — Protecting businesses while empowering employees with instant AI support via CyberGuard Assistant." />
+
+  <!-- Favicon -->
+  <link rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%2300e6ff'/%3E%3Ctext x='50' y='60' font-size='48' text-anchor='middle' font-family='Inter, Arial' fill='%23021' font-weight='700'%3ECG%3C/text%3E%3C/svg%3E">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="static/style.css">
+</head>
+
+<body>
+  <div class="site">
+
+    <!-- HEADER -->
+    <header>
+      <div class="brand">
+        <div class="logo"><span class="logo-text">CG</span></div>
+        <div>
+          <h1>CyberGuard Solutions</h1>
+          <p class="muted">Advanced Cybersecurity & AI</p>
+        </div>
+      </div>
+
+      <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="javascript:openChat()">Assistant</a>
+        <a href="#contact">Contact</a>
+        <a class="primary" href="javascript:openChat()">Try CyberGuard Assistant</a>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+
+      <!-- HERO -->
+      <section class="hero">
+        <div class="hero-left">
+          <div class="eyebrow"><span class="dot"></span> Enterprise-grade security</div>
+          <h2>Advanced Cybersecurity & Smart AI Assistance</h2>
+          <p class="lead">Protecting businesses while empowering employees with instant AI support and secure automation.</p>
+
+          <div class="actions">
+            <a class="primary" href="javascript:openChat()">Try CyberGuard Assistant</a>
+            <button class="ghost" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+              Contact Sales
+            </button>
+          </div>
+
+          <!-- Features -->
+          <div class="features">
+            <div class="stat">
+              <div class="icon">🔒</div>
+              <div>
+                <strong>24/7 Protection</strong>
+                <div class="muted">Continuous monitoring, SOC analysts & automated playbooks.</div>
+              </div>
+            </div>
+            <div class="stat">
+              <div class="icon">🤖</div>
+              <div>
+                <strong>AI Onboarding</strong>
+                <div class="muted">Role-specific guides, checklists and auto-generated forms.</div>
+              </div>
+            </div>
+            <div class="stat">
+              <div class="icon">⚡</div>
+              <div>
+                <strong>Fast Incident Support</strong>
+                <div class="muted">Analysts + automation reduce time-to-respond.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Assistant Demo Card -->
+        <aside class="assistant-card">
+          <div class="assistant-header">
+            <div class="avatar">CG</div>
+            <div>
+              <strong>CyberGuard Assistant</strong>
+              <div class="muted">Onboarding · HR · Workflows · Policies</div>
+            </div>
+          </div>
+
+          <div class="chat-sample">
+            <div class="bubble bot">Welcome to CyberGuard — how can I help with onboarding or policies today?</div>
+            <div class="bubble user">How do I submit a laptop access request?</div>
+            <div class="bubble bot">
+              Open the 'Access Requests' form via the intranet → Hardware requests. I can generate the template for you.
+            </div>
+          </div>
+
+          <div style="display:flex;justify-content:space-between;align-items:center">
+            <div class="muted">Available: Onboarding · HR · Tasks · Policies</div>
+            <a class="primary" href="javascript:openChat()">Open Assistant</a>
+          </div>
+        </aside>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section id="about">
+        <h3>About Us</h3>
+        <p class="muted">
+          CyberGuard Solutions provides cybersecurity services including cloud security, network monitoring,
+          penetration testing, endpoint security, threat intelligence, and 24/7 SOC operations.
+        </p>
+
+        <div class="cards">
+          <div class="card">
+            <h4>Our Vision</h4>
+            <p class="muted">Security that's seamless, human-friendly and embedded into workflows.</p>
+          </div>
+          <div class="card">
+            <h4>Team</h4>
+            <p class="muted">Engineers from enterprise SOCs, cloud security and red team backgrounds.</p>
+          </div>
+          <div class="card">
+            <h4>Compliance</h4>
+            <p class="muted">SOC2 readiness, ISO 27001 mapping, GDPR-aligned controls.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ASSISTANT SECTION -->
+      <section id="assistant">
+        <h3>Meet CyberGuard Assistant</h3>
+        <p class="muted">
+          An internal AI chatbot designed to help new employees and interns get up-to-speed fast. The assistant
+          integrates with Slack, MS Teams, intranet widgets and ticketing systems to provide role-based answers and
+          pre-fill forms.
+        </p>
+
+        <div class="cards">
+          <div class="card">
+            <h4>Onboarding</h4>
+            <p class="muted">Step-by-step checklists, IT setup guides, access requests and required trainings.</p>
+          </div>
+          <div class="card">
+            <h4>HR FAQs</h4>
+            <p class="muted">Policies, leave & benefits, payroll, procedures and downloadable forms.</p>
+          </div>
+          <div class="card">
+            <h4>Workflow & Tasks</h4>
+            <p class="muted">Task templates, environment setup and role-specific playbooks.</p>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <h4>How it works</h4>
+          <ol class="muted">
+            <li>Ingests approved company docs securely.</li>
+            <li>Users ask questions via chat widgets.</li>
+            <li>Returns contextual answers, generates tickets/forms.</li>
+            <li>Admins manage logs, compliance & review.</li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section id="services">
+        <h3>Our Services</h3>
+        <div class="services">
+          <div class="card service-item"><div class="icon-wrap">☁️</div><div><strong>Cloud Defense</strong><div class="muted">Identity & posture management, config hardening.</div></div></div>
+          <div class="card service-item"><div class="icon-wrap">🌐</div><div><strong>Network Monitoring</strong><div class="muted">24/7 traffic analysis and anomaly detection.</div></div></div>
+          <div class="card service-item"><div class="icon-wrap">🛡️</div><div><strong>SOC-as-a-Service</strong><div class="muted">Managed SOC, threat hunting & SLAs.</div></div></div>
+          <div class="card service-item"><div class="icon-wrap">🧪</div><div><strong>Penetration Testing</strong><div class="muted">Web & API assessments & remediation.</div></div></div>
+          <div class="card service-item"><div class="icon-wrap">🚨</div><div><strong>Incident Response</strong><div class="muted">Containment, forensics & recovery.</div></div></div>
+          <div class="card service-item"><div class="icon-wrap">🔒</div><div><strong>Endpoint Security</strong><div class="muted">EPP/EDR deployment & policies.</div></div></div>
+        </div>
+      </section>
+
+      <!-- WHY CHOOSE US -->
+      <section id="why">
+        <h3>Why Choose Us</h3>
+        <div class="why-grid">
+          <div class="card"><h4>24/7 Protection</h4><p class="muted">Always-on monitoring & rapid containment.</p></div>
+          <div class="card"><h4>AI-powered onboarding</h4><p class="muted">Reduce ramp time with automation.</p></div>
+          <div class="card"><h4>Reduces HR workload</h4><p class="muted">Offload repetitive HR queries.</p></div>
+          <div class="card"><h4>Faster training</h4><p class="muted">Interactive microlearning modules.</p></div>
+          <div class="card"><h4>Reliable solutions</h4><p class="muted">Enterprise SLAs & compliance.</p></div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact">
+        <h3>Contact Us</h3>
+        <div class="contact-grid">
+          <div>
+            <form id="contactForm">
+              <input id="name" type="text" placeholder="Your name" required value="Asha Patel" />
+              <input id="email" type="email" placeholder="Work email" required value="asha.patel@acme.co" />
+              <input id="company" type="text" placeholder="Company" value="Acme Corp" />
+              <select id="interest" aria-label="Interest">
+                <option>I'm interested in...</option>
+                <option>Cloud Defense</option>
+                <option>SOC-as-a-Service</option>
+                <option>Penetration Testing</option>
+                <option>CyberGuard Assistant</option>
+              </select>
+              <textarea id="message" required>We'd like a demo of the CyberGuard Assistant integrated into Slack and our intranet.</textarea>
+
+              <div class="form-actions">
+                <button class="primary" type="submit">Send Message</button>
+                <button type="button" class="ghost" onclick="saveDraft()">Save draft</button>
+              </div>
+            </form>
+
+            <div class="contact-details">
+              <div><strong>Email:</strong> <a href="mailto:vedantdhopat69@gmail.com" class="muted">vedantdhopat69@gmail.com</a></div>
+              <div><strong>Phone:</strong> <a href="tel:+9833555488" class="muted">+9833555488</a></div>
+              <div><strong>Location:</strong> 9/2 Cybercoast, vmarg, Mumbai</div>
+            </div>
+          </div>
+
+          <!-- Assistant Sidebar -->
+          <aside class="assistant-card">
+            <h4>Try the Assistant</h4>
+            <p class="muted">Demo the CyberGuard Assistant integrated into Slack, MS Teams, or your intranet.</p>
+            <button class="primary" onclick="openChat()">Launch demo</button>
+          </aside>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div>
+        © <strong>CyberGuard Solutions</strong> — Built with security-first design.
+      </div>
+    </footer>
+
+  </div>
+
+  <div class="overlay" onclick="closeChat()"></div>
+  <div class="chat-widget" id="chatWidget">
+    <div class="chat-window" role="dialog" aria-label="CyberGuard Assistant">
+      <div class="chat-header">
+        <div class="avatar">CG</div>
+        <div>
+          <div style="font-weight:700">CyberGuard Assistant</div>
+          <div class="muted" style="font-size:12px">Onboarding · HR · Workflows</div>
+        </div>
+        <div style="margin-left:auto">
+          <button onclick="closeChat()" class="ghost">Close</button>
+        </div>
+      </div>
+      <div class="chat-body" id="chatBody">
+        <div class="chat-message bot">Hello — I'm CyberGuard Assistant. Ask me about onboarding steps, HR forms, or task guides.</div>
+      </div>
+      <div class="chat-input">
+        <input id="chatInput" placeholder="Ask a question (e.g., 'How do I request a VPN')" />
+        <button class="primary" onclick="sendMessage()">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- External JS -->
+  <script src="static/script.js"></script>
+
+</body>
+
+</html>
+

@@ -1,0 +1,14 @@
+{
+  "name": "cyberguard-website",
+  "version": "1.0.0",
+  "description": "CyberGuard Solutions website with a functional AI assistant.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7"
+  }
+}
